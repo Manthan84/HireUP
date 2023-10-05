@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HIRE UP</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="stylesheet" href="./css/css social icons.css">
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- favicon css -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+            background-image: url("./img/BACKGROUND.jpg");
+            background-repeat: repeat-x repeat-y;
+            background-size: cover;
+
+        }
+        
+    </style>
+    <script>
+        function validatephone(phone) {
+            var maintainplus = '';
+            var numval = phone.value;
+            var curphonevar = numval.replace(/[\\A-Za-z!"£$%^&\,*+_={};:'@#~,.Š\/<>?|`¬\]\[]/g, '');
+            phone.value = maintainplus + curphonevar;
+            phone.focus;
+        }
+        function email_validate(email) {
+            var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
+
+            if (regMail.test(email) == false) {
+                document.getElementById("status").innerHTML= "<span class='warning'>Email address is not valid yet.</span>";
+            }
+            else {
+                document.getElementById("status").innerHTML = "<span class='valid'>Thanks, you have entered a valid Email address!</span>";
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/Hireup-New-Logo-1.png" alt="logo" height="80"
+                        width="200"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#" style="font-family: 'Oswald', sans-serif;">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" style="font-family: 'Oswald', sans-serif;">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" style="font-family: 'Oswald', sans-serif;">services</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog" style="font-family: 'Oswald', sans-serif;">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" style="font-family: 'Oswald', sans-serif;">Contact
+                                Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <hr>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+
+                        <h2 class="title-text text-uppercase" style="font-family: 'Itim', cursive;">Hire Local Helpers &
+                            Workers across India</h2>
+                        <h4 class="title-text text-uppercase" style="font-family: 'Itim', cursive;">Hire the people you
+                            are looking for. We are committed to provide the geniune and certified workers</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <a href="apply.html"><button type="button"
+                                        class="btn button primary-button mr-4 text-uppercase">Apply Now</button></a>
+                                 <a href="signin.html"><button type="button"
+                                        class="btn button primary-button mr-4 text-uppercase">Sign in</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="banner" class="background">
+                        <img src="./img/banner/download_prev_ui.png" alt="banner-img"  height="500px"
+                            width="650px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="services">
+        <!--  ======================= End Banner Area =======================  -->
+
+
+
+
+
+        <!--  ====================== Start Services Area =============================  -->
+
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text" style="font-family: 'Itim', cursive;">Services Offered
+                        </h1>
+                        <h2 style="font-family: 'Itim', cursive;">
+
+                            These are the list of Services that we provide.
+
+                        </h2>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <button class="btn" data-toggle="modal" data-target="#workermodal"><img
+                                            src="./img/services/workers1_63x69.jpg" alt="Services-1" height="127px" width="117px"></button>
+                                </div>
+                                <!-- modal 1 for workers -->
+                                <div class="modal fade" id="workermodal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header text-center">
+                                                <h4 class="modal-title w-100 font-weight-bold"
+                                                    style="font-family: 'Itim', cursive;">WORKERS</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body mx-3">
+                                                <div class="md-form mb-5">
+
+                                                    <div class="form-group">
+                                                        <label for="workercategory">Category : </label>
+                                                        <select class="form-control" id="workercategory"
+                                                            required>
+                                                            <option value="1" selected>Select category</option>
+                                                            <option>Maid</option>
+                                                            <option>Male Maid</option>
+                                                            <option>Office-Staff-Worker</option>
+                                                            <option>Electrician</option>
+                                                            <option>Plumber</option>
+                                                        </select>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="md-form mb-5">
+
+                                                    <div class="form-group">
+                                                        <label for="workerhours">Working Hours : </label>
+                                                        <select class="form-control" id="workerhours"
+                                                            required>
+                                                            <option value="1" selected>Select working hours</option>
+                                                            <option value="2">Full-Day(max. 12 hrs)</option>
+                                                            <option value="3">Live-in(24 hrs)</option>
+                                                            <option value="4">Part-time(1-4 hrs)</option>
+                                                            <option value="5">Night Shift(2-12 hrs)</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="">Gender(of worker) : </label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                      </div>
+                                                      <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                      </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="workercharges">Charges : </label>
+                                                        <select class="form-control" id="workercharges"
+                                                            required>
+                                                            <option value="1" selected>Select Charges</option>
+                                                            <option value="2"><5000</option>
+                                                            <option value="3">5000-6000</option>
+                                                            <option value="4">6000-7000</option>
+                                                            <option value="5">>7000</option>
+                                                        </select>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="workerphone">Mobile Number : </label>
+                                                        <input type="text" maxlength="10" class="form-control phone"
+                                                            aria-label="Default" id="workerphone"
+                                                            aria-describedby="inputGroup-sizing-default" required
+                                                            onkeyup="validatephone(this)">
+                                                    </div>
+                                                </div>
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="workeraddress">Address : </label>
+                                                        <input type="text" maxlength="50" class="form-control"
+                                                            aria-label="Default" id="workeraddress"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="workercity">City : </label>
+                                                        <input type="text" maxlength="20" class="form-control"
+                                                            aria-label="Default" id="workercity"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="workerstate">State : </label>
+                                                        <select class="form-control" id="workerstate"
+                                                            required>
+                                                            <option value="1" selected>Select State : </option>
+                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                            <option value="Andaman and Nicobar Islands">Andaman and
+                                                                Nicobar Islands</option>
+                                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                            <option value="Assam">Assam</option>
+                                                            <option value="Bihar">Bihar</option>
+                                                            <option value="Chandigarh">Chandigarh</option>
+                                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                                            <option value="Dadar and Nagar Haveli">Dadar and Nagar
+                                                                Haveli</option>
+                                                            <option value="Daman and Diu">Daman and Diu</option>
+                                                            <option value="Delhi">Delhi</option>
+                                                            <option value="Lakshadweep">Lakshadweep</option>
+                                                            <option value="Puducherry">Puducherry</option>
+                                                            <option value="Goa">Goa</option>
+                                                            <option value="Gujarat">Gujarat</option>
+                                                            <option value="Haryana">Haryana</option>
+                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                            <option value="Jharkhand">Jharkhand</option>
+                                                            <option value="Karnataka">Karnataka</option>
+                                                            <option value="Kerala">Kerala</option>
+                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                            <option value="Maharashtra">Maharashtra</option>
+                                                            <option value="Manipur">Manipur</option>
+                                                            <option value="Meghalaya">Meghalaya</option>
+                                                            <option value="Mizoram">Mizoram</option>
+                                                            <option value="Nagaland">Nagaland</option>
+                                                            <option value="Odisha">Odisha</option>
+                                                            <option value="Punjab">Punjab</option>
+                                                            <option value="Rajasthan">Rajasthan</option>
+                                                            <option value="Sikkim">Sikkim</option>
+                                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                                            <option value="Telangana">Telangana</option>
+                                                            <option value="Tripura">Tripura</option>
+                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                            <option value="Uttarakhand">Uttarakhand</option>
+                                                            <option value="West Bengal">West Bengal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn btn-success"
+                                                   id="wc" >Confirm</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal 1 for workers -->
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase" style="font-family: 'Itim', cursive;">WORKERS
+                                    </h5>
+                                    <p class="card-text text-secondary" style="font-family: 'Oswald', sans-serif;">
+                                        Get Right Person for Right Job and have a new Experience of Human Resource.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <button class="btn" data-toggle="modal" data-target="#drivermodal"><img
+                                            src="./img/services/drivers1_69x64.jpg" alt="Services-2" height="127px" width="140px"></button>
+                                </div>
+                                <!-- modal 2 for driver -->
+                                <div class="modal fade" id="drivermodal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header text-center">
+                                                <h4 class="modal-title w-100 font-weight-bold"
+                                                    style="font-family: 'Itim', cursive;">DRIVERS</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body mx-3">
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="drivercategory">Category : </label>
+                                                        <select class="form-control" id="drivercategory"
+                                                            required>
+                                                            <option value="1" selected>Select category</option>
+                                                            <option>Personal Driver</option>
+                                                            <option>Cab Driver</option>
+                                                            
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="driverhours">Working Hours : </label>
+                                                        <select class="form-control" id="driverhours"
+                                                            required>
+                                                            <option value="1" selected>Select working hours</option>
+                                                            <option value="2">Full-Day(max. 12 hrs)</option>
+                                                            <option value="3">Live-in(24 hrs)</option>
+                                                            <option value="4">Part-time(1-4 hrs)</option>
+                                                            <option value="5">Night Shift(2-12 hrs)</option>
+                                                        </select>
+                                                    </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="">Gender(of worker) : </label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                      </div>
+                                                      <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                      </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="drivercharges">Charges : </label>
+                                                        <select class="form-control" id="drivercharges"
+                                                            required>
+                                                            <option value="1" selected>Select Charges</option>
+                                                            <option value="2"><5000</option>
+                                                            <option value="3">5000-6000</option>
+                                                            <option value="4">6000-7000</option>
+                                                            <option value="5">>7000</option>
+                                                        </select>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="driverphone">Mobile Number : </label>
+                                                        <input type="text" maxlength="10" class="form-control phone"
+                                                            aria-label="Default" id="driverphone"
+                                                            aria-describedby="inputGroup-sizing-default" required
+                                                            onkeyup="validatephone(this)">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="driveraddress">Address : </label>
+                                                        <input type="text" maxlength="50" class="form-control"
+                                                            aria-label="Default" id="driveraddress"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="drivercity">City : </label>
+                                                        <input type="text" maxlength="20" class="form-control"
+                                                            aria-label="Default" id="drivercity"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="driverstate">State : </label>
+                                                        <select class="form-control" id="driverstate"
+                                                            required>
+                                                            <option value="1" selected>Select State : </option>
+                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                            <option value="Andaman and Nicobar Islands">Andaman and
+                                                                Nicobar Islands</option>
+                                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                            <option value="Assam">Assam</option>
+                                                            <option value="Bihar">Bihar</option>
+                                                            <option value="Chandigarh">Chandigarh</option>
+                                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                                            <option value="Dadar and Nagar Haveli">Dadar and Nagar
+                                                                Haveli</option>
+                                                            <option value="Daman and Diu">Daman and Diu</option>
+                                                            <option value="Delhi">Delhi</option>
+                                                            <option value="Lakshadweep">Lakshadweep</option>
+                                                            <option value="Puducherry">Puducherry</option>
+                                                            <option value="Goa">Goa</option>
+                                                            <option value="Gujarat">Gujarat</option>
+                                                            <option value="Haryana">Haryana</option>
+                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                            <option value="Jharkhand">Jharkhand</option>
+                                                            <option value="Karnataka">Karnataka</option>
+                                                            <option value="Kerala">Kerala</option>
+                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                            <option value="Maharashtra">Maharashtra</option>
+                                                            <option value="Manipur">Manipur</option>
+                                                            <option value="Meghalaya">Meghalaya</option>
+                                                            <option value="Mizoram">Mizoram</option>
+                                                            <option value="Nagaland">Nagaland</option>
+                                                            <option value="Odisha">Odisha</option>
+                                                            <option value="Punjab">Punjab</option>
+                                                            <option value="Rajasthan">Rajasthan</option>
+                                                            <option value="Sikkim">Sikkim</option>
+                                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                                            <option value="Telangana">Telangana</option>
+                                                            <option value="Tripura">Tripura</option>
+                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                            <option value="Uttarakhand">Uttarakhand</option>
+                                                            <option value="West Bengal">West Bengal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn btn-success" 
+                                                    id="dc" >Confirm</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal 2 for driver -->
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase" style="font-family: 'Itim', cursive;">DRIVERS
+                                    </h5>
+                                    <p class="card-text text-secondary" style="font-family: 'Oswald', sans-serif;">
+                                        The best drivers are aware that they must be beware
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <button class="btn" data-toggle="modal" data-target="#bbysittermodal"><img
+                                            src="./img/services/bby_sitter1_64x68.jpg" alt="Services-3" height="127px" width="137px"></button>
+                                </div>
+                                <!-- modal 3 for baby sitter -->
+                                <div class="modal fade" id="bbysittermodal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header text-center">
+                                                <h4 class="modal-title w-100 font-weight-bold"
+                                                    style="font-family: 'Itim', cursive;">BABY SITTER</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body mx-3">
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="bbycategory">Category : </label>
+                                                        <select class="form-control" id="bbycategory"
+                                                            required>
+                                                            <option value="1" selected>Select Service</option>
+                                                            <option value="2">Japa Maid</option>
+                                                            <option value="3">Care-taker</option>
+                                                            
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="bbyhours">Working Hours : </label>
+                                                        <select class="form-control" id="bbyhours"
+                                                            required>
+                                                            <option value="1" selected>Select working hours</option>
+                                                            <option value="2">Full-Day(max. 12 hrs)</option>
+                                                            <option value="3">Live-in(24 hrs)</option>
+                                                            <option value="4">Part-time(1-4 hrs)</option>
+                                                            <option value="5">Night Shift(2-12 hrs)</option>
+                                                        </select>
+                                                    </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="">Gender(of worker) : </label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" disabled>
+                                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                      </div>
+                                                      <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                      </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="bbycharges">Charges : </label>
+                                                        <select class="form-control" id="bbycharges"
+                                                            required>
+                                                            <option value="1" selected>Select Charges</option>
+                                                            <option value="2"><5000</option>
+                                                            <option value="3">5000-6000</option>
+                                                            <option value="4">6000-7000</option>
+                                                            <option value="5">>7000</option>
+                                                        </select>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="bbyphone">Mobile Number : </label>
+                                                        <input type="text" maxlength="10" class="form-control phone"
+                                                            aria-label="Default" id="bbyphone"
+                                                            aria-describedby="inputGroup-sizing-default" required
+                                                            onkeyup="validatephone(this)">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="bbyaddress">Address : </label>
+                                                        <input type="text" maxlength="50" class="form-control"
+                                                            aria-label="Default" id="bbyaddress"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="bbycity">City : </label>
+                                                        <input type="text" maxlength="20" class="form-control" id="bbycity"
+                                                            aria-label="Default"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="bbystate">State : </label>
+                                                        <select class="form-control" id="bbystate"
+                                                            required>
+                                                            <option value="1" selected>Select State : </option>
+                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                            <option value="Andaman and Nicobar Islands">Andaman and
+                                                                Nicobar Islands</option>
+                                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                            <option value="Assam">Assam</option>
+                                                            <option value="Bihar">Bihar</option>
+                                                            <option value="Chandigarh">Chandigarh</option>
+                                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                                            <option value="Dadar and Nagar Haveli">Dadar and Nagar
+                                                                Haveli</option>
+                                                            <option value="Daman and Diu">Daman and Diu</option>
+                                                            <option value="Delhi">Delhi</option>
+                                                            <option value="Lakshadweep">Lakshadweep</option>
+                                                            <option value="Puducherry">Puducherry</option>
+                                                            <option value="Goa">Goa</option>
+                                                            <option value="Gujarat">Gujarat</option>
+                                                            <option value="Haryana">Haryana</option>
+                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                            <option value="Jharkhand">Jharkhand</option>
+                                                            <option value="Karnataka">Karnataka</option>
+                                                            <option value="Kerala">Kerala</option>
+                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                            <option value="Maharashtra">Maharashtra</option>
+                                                            <option value="Manipur">Manipur</option>
+                                                            <option value="Meghalaya">Meghalaya</option>
+                                                            <option value="Mizoram">Mizoram</option>
+                                                            <option value="Nagaland">Nagaland</option>
+                                                            <option value="Odisha">Odisha</option>
+                                                            <option value="Punjab">Punjab</option>
+                                                            <option value="Rajasthan">Rajasthan</option>
+                                                            <option value="Sikkim">Sikkim</option>
+                                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                                            <option value="Telangana">Telangana</option>
+                                                            <option value="Tripura">Tripura</option>
+                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                            <option value="Uttarakhand">Uttarakhand</option>
+                                                            <option value="West Bengal">West Bengal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                
+
+
+
+
+
+
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn btn-success" 
+                                                    id="bc">Confirm</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal 3 for baby sitter -->
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase" style="font-family: 'Itim', cursive;">BABY
+                                        SITTER</h5>
+                                    <p class="card-text text-secondary" style="font-family: 'Oswald', sans-serif;">
+                                        We are the trustworthy hands waiting to help working parents so
+                                        Let your parents.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <button class="btn" data-toggle="modal" data-target="#cooksmodal"><img
+                                            src="./img/services/cooks_64x68.jpg" alt="Services-4" height="127px" width="117px"></button>
+                                </div>
+                                <!-- modal 4 for baby cooks -->
+                                <div class="modal fade" id="cooksmodal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header text-center">
+                                                <h4 class="modal-title w-100 font-weight-bold"
+                                                    style="font-family: 'Itim', cursive;">COOKS</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body mx-3">
+
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="cookcategory">Category : </label>
+                                                        <select class="form-control" id="cookcategory"
+                                                            required>
+                                                            <option value="1" selected>Select category</option>
+                                                            <option value="2">Home cooks</option>
+                                                            <option value="3">Professional cooks</option>
+                                                            
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <div class="form-group">
+                                                        <label for="cookhours">Working Hours : </label>
+                                                        <select class="form-control" id="cookhours"
+                                                            required>
+                                                            <option value="1" selected>Select working hours</option>
+                                                            <option value="2">Full-Day(max. 12 hrs)</option>
+                                                            <option value="3">Live-in(24 hrs)</option>
+                                                            <option value="4">Part-time(1-4 hrs)</option>
+                                                            <option value="5">Night Shift(2-12 hrs)</option>
+                                                        </select>
+                                                    </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="">Gender(of worker) : </label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                      </div>
+                                                      <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                      </div>
+
+                                                   
+                                                </div>
+                                                <div class="md-form mb-5">
+                                                    <label for="cookscharges">Charges : </label>
+                                                        <select class="form-control" id="cookscharges"
+                                                            required>
+                                                            <option value="1" selected>Select Charges</option>
+                                                            <option value="2"><5000</option>
+                                                            <option value="3">5000-6000</option>
+                                                            <option value="4">6000-7000</option>
+                                                            <option value="5">>7000</option>
+                                                        </select>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="">Mobile Number : </label>
+                                                        <input type="text" maxlength="10" class="form-control phone"
+                                                            aria-label="Default"
+                                                            aria-describedby="inputGroup-sizing-default" required
+                                                            onkeyup="validatephone(this)" id="cooksphone">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlSelect1">Address : </label>
+                                                        <input type="text" maxlength="50" class="form-control"
+                                                            aria-label="Default" id="cooksaddress"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlSelect1">City : </label>
+                                                        <input type="text" maxlength="20" class="form-control"
+                                                            aria-label="Default" id="cookscity"
+                                                            aria-describedby="inputGroup-sizing-default">
+                                                    </div>
+                                                </div>
+
+                                                <div class="md-form mb-4">
+                                                    <div class="form-group">
+                                                        <label for="cooksstate">State : </label>
+                                                        <select class="form-control" id="cooksstate"
+                                                            required>
+                                                            <option value="1" selected>Select State : </option>
+                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                            <option value="Andaman and Nicobar Islands">Andaman and
+                                                                Nicobar Islands</option>
+                                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                            <option value="Assam">Assam</option>
+                                                            <option value="Bihar">Bihar</option>
+                                                            <option value="Chandigarh">Chandigarh</option>
+                                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                                            <option value="Dadar and Nagar Haveli">Dadar and Nagar
+                                                                Haveli</option>
+                                                            <option value="Daman and Diu">Daman and Diu</option>
+                                                            <option value="Delhi">Delhi</option>
+                                                            <option value="Lakshadweep">Lakshadweep</option>
+                                                            <option value="Puducherry">Puducherry</option>
+                                                            <option value="Goa">Goa</option>
+                                                            <option value="Gujarat">Gujarat</option>
+                                                            <option value="Haryana">Haryana</option>
+                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                            <option value="Jharkhand">Jharkhand</option>
+                                                            <option value="Karnataka">Karnataka</option>
+                                                            <option value="Kerala">Kerala</option>
+                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                            <option value="Maharashtra">Maharashtra</option>
+                                                            <option value="Manipur">Manipur</option>
+                                                            <option value="Meghalaya">Meghalaya</option>
+                                                            <option value="Mizoram">Mizoram</option>
+                                                            <option value="Nagaland">Nagaland</option>
+                                                            <option value="Odisha">Odisha</option>
+                                                            <option value="Punjab">Punjab</option>
+                                                            <option value="Rajasthan">Rajasthan</option>
+                                                            <option value="Sikkim">Sikkim</option>
+                                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                                            <option value="Telangana">Telangana</option>
+                                                            <option value="Tripura">Tripura</option>
+                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                            <option value="Uttarakhand">Uttarakhand</option>
+                                                            <option value="West Bengal">West Bengal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn btn-success"
+                                                    id="cc">Confirm</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal 4 for cooks -->
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase" style="font-family: 'Itim', cursive;">COOKS
+                                    </h5>
+                                    <p class="card-text text-secondary" style="font-family: 'Oswald', sans-serif;">
+                                        A formula has no spirit, you as the cook must convey soul to the formula.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="blog">
+
+        <!--  ====================== End Services Area =============================  -->
+
+
+
+        <!--  ======================== About Us Area ==============================  -->
+
+        <section class="about-area">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-h1" style="font-family: 'Itim', cursive;">Client Say about
+                                Us</h1>
+                            <h2 style="font-family: 'Itim', cursive;">
+                                We are very fortunate to have formed excellent partnerships with many of our clients.
+                                And we’ve formed more than just working relationships with them; we have formed true
+                                friendships. Here’s what they’re saying about us.
+                            </h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/aunty1.jpg" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">megha sharma </h4>
+                            <p class="para" style="font-family: 'Oswald', sans-serif;">Hired their nanny services, Quite
+                                professional and reliable, would like to approach them for future services as well thank
+                                you.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t2.jfif" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">Ram Ratan mishra</h4>
+                            <p class="para" style="font-family: 'Oswald', sans-serif;">This agency is very reliable.I
+                                have tried 6 agencies in Delhi but this is the best. They understand your requirement n
+                                give you employees accordingly and in case of any problem they will replace your maid
+                                genuinely. The owner Mr. Sharma is a very good person n very polite not at all rude or
+                                arrogant like other agents. The maids are also good n well mannered. Good work HIREUp.
+                                Thanks for helping us.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t1.png" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">Vijay iyer</h4>
+                            <p class="para" style="font-family: 'Oswald', sans-serif;">Thank you HIREUp for helping me
+                                with a part time maid in Kolkata. She is good at cleaning and cooking and comes on time.
+                                I am expecting a baby and looking forward to hiring a japa from you here in Kolkata. I
+                                have already recommended you to my friends. Thank you for the help</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t3.jpg" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">vineet kumar</h4>
+                            <p class="para" style="font-family: 'Oswald', sans-serif;">Someone I never trusted the local
+                                Surat maid agencies and nanny. HIREUp arranged a full time nanny from Mumbai who is from
+                                Assam. The lady was very experienced and had handled multiple kids of young age. The
+                                response time from HIREUp was very impressive. I would recommend HIREUp to anyone who is
+                                looking to hire full time baby sitter in Surat</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t4.jpg" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">mohan arora</h4>
+                            <p class="para" style="font-family: 'Oswald', sans-serif;">My mother was unwell and I
+                                started looking for an experienced patient caretaker in Pune. I spoke to a few patient
+                                caretaker supply agencies in Pune but the one sent by HIREUp team was the most reliable.
+                                HIREUp charged me after the caretaker joined and that too a decent price and with police
+                                verification.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <hr id="about">
+
+        <!--  ======================== End About Me Area ==============================  -->
+        <!--  ========================= About Area ==========================  -->
+
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/about-us.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span style="font-family: 'Itim', cursive;">Let us</span>
+                            <span style="font-family: 'Itim', cursive;">introduce</span>
+                            <span style="font-family: 'Itim', cursive;">you to hire up</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+
+                            <h4 class="text" style="font-family: 'Oswald', sans-serif;">
+                                This is a initiative by hire up team to provide best professionals so that you will find
+                                an ease of doing work at a relevant and efffective charges. Hope you will find complete
+                                solution for your hiring needs. Keep hiring😊
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="contact">
+        <!--  ========================= End About Area ==========================  -->
+
+        <!--  ========================== Subscribe me Area ============================  -->
+        <section class="subscribe-us-area">
+            <div class="container subscribe">
+                <div class="row">
+                    <div class="col-lg-10 text-center subscribe-title">
+                        <h4 class="text-uppercase" style="font-family: 'Itim', cursive;">Get In touch with Us From Here
+                        </h4>
+
+                    </div>
+                    
+
+                </div>
+                <div class="d-sm-flex justify-content-center">
+                    <form class="w-50">
+                        <div class="row d-flex flex-row flex-wrap">
+                            <div class="col input-textbox" style="padding: 10px;">
+                                <input type="text" id="txtname" class="form-control" placeholder="Name" style="padding: 10px;">
+                            </div>
+                            
+                            
+                            
+                        </div>
+                        
+                        <div class="row d-flex flex-row flex-wrap">
+                            <div class="col input-textbox" style="padding: 10px;">
+                                <input type="text" id="txtemail" class="form-control" placeholder="Email" onkeyup="email_validate(this.value);" style="padding: 10px;">
+                            </div>
+                        </div>
+                        <div class="status col-lg-5 text-center" id="status"></div>
+                        <div class="row d-flex flex-row flex-wrap">
+                        <div class="col">
+                            <div class="btn-submit" style="padding: 10px;">
+                                <button class="btn btn-primary" id="cu"
+                                    type="button" style="font-family: 'Oswald', sans-serif;">Contact Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        <hr>
+        <!--  ========================== End Subscribe me Area ============================  -->
+
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="./img/Hireup-New-Logo-1.png" alt="logo" height="100" width="200"></a>
+                </div>
+                <h5 align="center" style="font-family: 'Itim', cursive;"><i>Follow Us</i></h5>
+                <div>
+                    <ul class="horizontal-list text-center social-icons">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                                <script src="https://kit.fontawesome.com/86c8289896.js"
+                                    crossorigin="anonymous"></script>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                                <script src="https://kit.fontawesome.com/86c8289896.js"
+                                    crossorigin="anonymous"></script>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                                <script src="https://kit.fontawesome.com/86c8289896.js"
+                                    crossorigin="anonymous"></script>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                                <script src="https://kit.fontawesome.com/86c8289896.js"
+                                    crossorigin="anonymous"></script>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <hr>
+
+
+
+    <!--  Jquery js file  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            swal({
+                title: "Welcome",
+                        text: "Welcome to HIREUp the best place where you can find best professional working people for your needs.",
+                        icon: "success",
+                        button: "OK",
+            });
+           
+            $("#cu").click(function(){
+                var text=$("#txtemail").val();
+                var status=$("#status").val();
+                var namec=$("#txtname").val();
+                if(text=='' || namec=='' ){
+                    swal({
+                        title: "Error!",
+                        text: "Please Fill all fields to verify.",
+                        icon: "error",
+                        button: "OK",
+                    });
+                }
+               
+                else{
+                    swal({
+                        title: "Successfully Submitted Your Response!",
+                        text: "You'll soon receive a E-mail from us and further communication can be carried out on E-mail.",
+                        icon: "success",
+                        button: "Thanks",
+                    });
+                }
+            });
+            $("#cc").click(function(){
+                var category =$("#cookcategory").val();
+                var hours =$("#cookshours").val();
+                var charge =$("#cookscharges").val();
+                var ph =$("#cooksphone").val();
+                var add =$("#cooksaddress").val();
+                var city =$("#cookscity").val();
+                var state =$("#cooksstate").val();
+                if(category==1 || hours==1 || charge==1 || ph=='' || add=='' || city=='' || state==1){
+                    swal({
+                        title: "Error!",
+                        text: "Some fields are missing. Please fill those.",
+                        icon: "error",
+                        button: "OK",
+                    });
+                    
+                }
+                else{
+                    swal({
+                        title: "Successfull!",
+                        text: "Our representative will reach to you soon for further communication.",
+                        icon: "success",
+                        button: "OK",
+                    });
+                    $('#cooksmodal').modal("hide");
+                    
+
+                }
+                $("#cookcategory").val(1);
+                $("#cookshours").val(1);
+                $("#cookscharges").val(1);
+                $("#cooksphone").val('');
+                $("#cooksaddress").val('');
+                $("#cookscity").val('');
+                $("#cooksstate").val(1);
+                
+            });
+            $("#bc").click(function(){
+                var category =$("#bbycategory").val();
+                var hours =$("#bbyhours").val();
+                var charge =$("#bbycharges").val();
+                var ph =$("#bbyphone").val();
+                var add =$("#bbyaddress").val();
+                var city =$("#bbycity").val();
+                var state =$("#bbystate").val();
+            
+                if(category==1 || hours==1 || charge==1 || ph=='' || add=='' || city=='' || state==1){
+                    swal({
+                        title: "Error!",
+                        text: "Some fields are missing. Please fill those.",
+                        icon: "error",
+                        button: "OK",
+                    });
+                    
+                }
+                else{
+                    swal({
+                        title: "Successfull!",
+                        text: "Our representative will reach to you soon for further communication.",
+                        icon: "success",
+                        button: "OK",
+                    });
+                    $('#bbysittermodal').modal("hide");
+                }
+                $("#bbycategory").val(1);
+                $("#bbyhours").val(1);
+                $("#bbycharges").val(1);
+                $("#bbyphone").val('');
+                $("#bbyaddress").val('');
+                $("#bbycity").val('');
+                $("#bbystate").val(1);
+            });
+            $("#dc").click(function(){
+                var category =$("#drivercategory").val();
+                var hours =$("#driverhours").val();
+                var charge =$("#drivercharges").val();
+                var ph =$("driverphone").val();
+                var add =$("#driveraddress").val();
+                var city =$("#drivercity").val();
+                var state =$("#driverstate").val();
+            
+                if(category==1 || hours==1 || charge==1 || ph=='' || add=='' || city=='' || state==1){
+                    swal({
+                        title: "Error!",
+                        text: "Some fields are missing. Please fill those.",
+                        icon: "error",
+                        button: "OK",
+                    });
+                    
+                }
+                else{
+                    swal({
+                        title: "Successfull!",
+                        text: "Our representative will reach to you soon for further communication.",
+                        icon: "success",
+                        button: "OK",
+                    });
+                    $('#drivermodal').modal("hide");
+                }
+                $("#drivercategory").val(1);
+                $("#driverhours").val(1);
+                $("#drivercharges").val(1);
+                $("#driverphone").val('');
+                $("#driveraddress").val('');
+                $("#drivercity").val('');
+                $("#driverstate").val(1);
+            });
+            $("#wc").click(function(){
+                var category =$("#workercategory").val();
+                var hours =$("#workerhours").val();
+                var charge =$("#workercharges").val();
+                var ph =$("#workerphone").val();
+                var add =$("#workeraddress").val();
+                var city =$("#workercity").val();
+                var state =$("#workerstate").val();
+            
+                if(category==1 || hours==1 || charge==1 || ph=='' || add=='' || city=='' || state==1){
+                    swal({
+                        title: "Error!",
+                        text: "Some fields are missing. Please fill those.",
+                        icon: "error",
+                        button: "OK",
+                    });
+                    
+                }
+                else{
+                    swal({
+                        title: "Successfull!",
+                        text: "Our representative will reach to you soon for further communication.",
+                        icon: "success",
+                        button: "OK",
+                    });
+                    $('#workermodal').modal("hide");
+                }
+                $("#workercategory").val(1);
+                $("#workerhours").val(1);
+                $("#workercharges").val(1);
+                $("#workerphone").val('');
+                $("#workeraddress").val('');
+                $("#workercity").val('');
+                $("#workerstate").val(1);
+            });
+             
+        });
+    </script>
+
+
+</body>
+
+</html>
